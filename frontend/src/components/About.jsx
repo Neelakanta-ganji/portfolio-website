@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
         <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <div style={{ width: '300px', height: '300px', borderRadius: '50%', background: 'linear-gradient(135deg, var(--neon-cyan), var(--neon-purple))', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', boxShadow: 'var(--glow-cyan)', padding: '5px' }}>
+          <div style={{ width: 'clamp(200px, 60vw, 300px)', height: 'clamp(200px, 60vw, 300px)', borderRadius: '50%', background: 'linear-gradient(135deg, var(--neon-cyan), var(--neon-purple))', position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center', boxShadow: 'var(--glow-cyan)', padding: '5px' }}>
             <img src="/images/photo.png" alt="Ganji Neelakanta" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
           </div>
         </div>

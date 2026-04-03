@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="floating-shape shape-2"></div>
       
       <div className="container" style={{ textAlign: 'center', zIndex: 1, position: 'relative' }}>
-        <h1 className="section-title animate-fade-up text-gradient" style={{ fontSize: '4.5rem', marginBottom: '20px', lineHeight: '1.2' }}>
+        <h1 className="section-title animate-fade-up text-gradient" style={{ fontSize: 'clamp(2.5rem, 8vw, 4.5rem)', marginBottom: '20px', lineHeight: '1.2' }}>
           I Build Scalable Websites & Systems<br />That Grow Your Business 🚀
         </h1>
-        <p className="animate-fade-up delay-100" style={{ fontSize: '1.25rem', color: 'var(--text-muted)', marginBottom: '40px', maxWidth: '600px', margin: '0 auto 40px auto' }}>
+        <p className="animate-fade-up delay-100" style={{ fontSize: 'clamp(1rem, 4vw, 1.25rem)', color: 'var(--text-muted)', marginBottom: '40px', maxWidth: '600px', margin: '0 auto 40px auto' }}>
           From design to backend to automation — I handle everything. 
           Positioning you as an industry leader through premium digital experiences.
         </p>
